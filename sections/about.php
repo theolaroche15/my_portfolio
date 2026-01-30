@@ -1,23 +1,5 @@
 <section id="about" class="relative py-32 bg-gray-100 border-t border-gray-200">
 
-  <!-- Social bar gauche -->
-  <div class="hidden md:flex flex-col gap-4 absolute left-6 top-1/2 -translate-y-1/2 z-20">
-    <a href="https://github.com/TON_GITHUB" target="_blank"
-       class="w-11 h-11 flex items-center justify-center
-              bg-white border border-gray-300 rounded-lg
-              text-gray-600 hover:text-violet-600 hover:border-violet-500
-              transition">
-      <i data-feather="github"></i>
-    </a>
-    <a href="https://linkedin.com/in/TON_LINKEDIN" target="_blank"
-       class="w-11 h-11 flex items-center justify-center
-              bg-white border border-gray-300 rounded-lg
-              text-gray-600 hover:text-violet-600 hover:border-violet-500
-              transition">
-      <i data-feather="linkedin"></i>
-    </a>
-  </div>
-
   <!-- Contenu principal -->
   <div class="max-w-6xl mx-auto px-6 sm:px-12 lg:px-24 grid grid-cols-1 md:grid-cols-2 gap-20">
 
@@ -28,12 +10,12 @@
       </h2>
 
       <p class="font-text text-gray-700 leading-relaxed">
-        Je m'appelle Théo Laroche, je suis né le 15 janvier 2004 et j'habite à Roanne.  
+        Je m'appelle Théo Laroche, je suis né le 15 janvier 2004 et j'habite à Roanne.
         En tant qu'apprenti en développement web, je me forme au Garage 404,
         une école de développement web et informatique située à Roanne.
         <br><br>
         J'apprends à créer des sites internet modernes et fonctionnels,
-        en m'exerçant principalement sur des projets concrets.  
+        en m'exerçant principalement sur des projets concrets.
         Je m'intéresse autant à l'intégration qu'à la logique côté serveur.
       </p>
     </div>

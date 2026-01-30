@@ -28,5 +28,3 @@
               hover:bg-violet-600 transition shadow-md">Voir mes projets</a>
   </div>
 </section>
-
-
