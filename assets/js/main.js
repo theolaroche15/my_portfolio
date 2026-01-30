@@ -1,4 +1,4 @@
-// Particules animées en arrière-plan
+// Particules animées en arrière-plan #HOME
 
 const canvas = document.getElementById('particles');
 const ctx = canvas.getContext('2d');
@@ -55,11 +55,56 @@ window.addEventListener('resize', () => {
 init();
 animate();
 
-// Menu mobile
+// Menu burger mobile #NAV
 
 const burger = document.getElementById('burger');
 const mobileMenu = document.getElementById('mobile-menu');
 
 burger.addEventListener('click', () => {
   mobileMenu.classList.toggle('hidden');
+});
+
+// Envoi mail #CONTACT
+
+const form = document.getElementById('contactForm');
+const msg = document.getElementById('formMessage');
+
+form.addEventListener('submit', async (e) => {
+  e.preventDefault();
+
+  const formData = new FormData(form);
+
+  const response = await fetch('includes/sendmail.php', {
+    method: 'POST',
+    body: formData
+  });
+
+  const result = await response.text();
+
+  msg.className =
+    'mt-5 sm:mt-8 text-sm font-text opacity-0 transform translate-y-4 transition-all duration-500 text-center';
+
+  let text, color;
+
+  if (result === 'success') {
+    text = 'Votre message a bien été envoyé !';
+    color = 'text-green-500';
+    form.reset();
+  } else {
+    text = 'Une erreur est survenue, veuillez réessayer.';
+    color = 'text-red-500';
+  }
+
+  msg.textContent = text;
+  msg.classList.add(color);
+
+  setTimeout(() => {
+    msg.style.opacity = 1;
+    msg.style.transform = 'translateY(0)';
+  }, 50);
+
+  setTimeout(() => {
+    msg.style.opacity = 0;
+    msg.style.transform = 'translateY(4px)';
+  }, 5000);
 });
