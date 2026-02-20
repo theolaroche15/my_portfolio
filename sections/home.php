@@ -1,5 +1,4 @@
-<section id="home" class="relative h-screen flex flex-col justify-center items-center
-         text-center overflow-hidden bg-gray-50">
+<section id="home" class="relative h-screen flex flex-col justify-center items-center text-center overflow-hidden bg-gray-50">
 
   <!-- Overlay léger pour séparer la navbar -->
   <div class="absolute inset-0 bg-black/5 pointer-events-none z-10"></div>

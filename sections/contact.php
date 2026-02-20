@@ -1,4 +1,4 @@
-<section id="contact" class="relative py-24 sm:py-32 border-t border-gray-200 bg-gray-50 overflow-hidden">
+<section id="contact" class="relative py-24 sm:py-32 border-t border-gray-200 bg-gray-100 overflow-hidden">
 
   <!-- Formes décoratives -->
   <div class="absolute top-10 left-6 sm:left-10 w-28 sm:w-36 h-28 sm:h-36 bg-violet-200/25 rounded-lg rotate-12"></div>
@@ -8,17 +8,17 @@
 
   <!-- Social bar gauche -->
   <div class="hidden md:flex flex-col gap-4 absolute left-6 top-1/2 -translate-y-1/2 z-20">
-    <a href="https://github.com/TON_GITHUB" target="_blank"
+    <a href="https://github.com/theolaroche15" target="_blank"
       class="w-11 h-11 flex items-center justify-center bg-white border border-gray-300 rounded-lg
               text-gray-600 hover:text-violet-600 hover:border-violet-500 transition">
       <i data-feather="github"></i>
     </a>
 
-    <a href="https://linkedin.com/in/TON_LINKEDIN" target="_blank"
+    <!-- <a href="https://linkedin.com/in/TON_LINKEDIN" target="_blank"
       class="w-11 h-11 flex items-center justify-center bg-white border border-gray-300 rounded-lg
               text-gray-600 hover:text-violet-600 hover:border-violet-500 transition">
       <i data-feather="linkedin"></i>
-    </a>
+    </a> -->
   </div>
 
   <!-- Contenu principal -->
